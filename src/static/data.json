@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Coffee",
+    "desc": "High-quality coffee beans and blends for a rich and aromatic brew. Choose from various roasts, including light, medium, and dark.",
+    "price": "$10 - $30 per pound",
+    "imageurl": "./assets/coffee.jpg"
+  },
+  {
+    "name": "Flower Pot",
+    "desc": "Decorative and functional flower pots for indoor and outdoor plants. Available in various sizes, materials, and designs to suit your gardening style.",
+    "price": "$15 - $50",
+    "imageurl": "./assets/flowerpot.jpg"
+  },
+  {
+    "name": "Frozen Food",
+    "desc": "Convenient and delicious frozen food options for quick and easy meals. Includes a variety of cuisines, from appetizers to main courses.",
+    "price": "$3 - $15 per item",
+    "imageurl": "./assets/frozenfood.jpg"
+  },
+  {
+    "name": "Picnic Utilities and Food",
+    "desc": "Everything you need for a perfect picnic - from picnic baskets and blankets to ready-to-eat snacks and refreshing beverages.",
+    "price": "$10 - $50 for utilities, $5 - $20 for food items",
+    "imageurl": "./assets/picniclunch.jpg"
+  },
+  {
+    "name": "Tea Time",
+    "desc": "Enhance your tea time experience with quality tea blends, elegant teapots, and accessories. Explore a range of sweet and savory treats perfect for tea pairing.",
+    "price": "$5 - $30 for tea, $15 - $50 for utilities, $5 - $15 for snacks",
+    "imageurl": "./assets/teatime.jpg"
+  },
+  {
+    "name": "Vegetables",
+    "desc": "Fresh and locally sourced vegetables to add nutritional value to your meals. Choose from a variety of organic and conventional options.",
+    "price": "$1 - $5 per pound",
+    "imageurl": "./assets/veggies.jpg"
+  }
+]
