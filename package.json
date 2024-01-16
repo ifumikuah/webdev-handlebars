@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass scss:css",
-    "dev": "sass --watch scss:css"
+    "default" : "echo hi"
   },
   "keywords": [],
   "author": "",
