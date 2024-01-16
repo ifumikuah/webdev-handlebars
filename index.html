@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Handlebars Experiment</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <script id="person-template" type="text/x-handlebars-template">
+    {{#each person}}
+      <article class="members__member">
+        <div class="member__figure">
+          <img src="{{img}}" alt="lina_tanaka">
+        </div>
+        <div class="member__text-wrapper">
+          <h1 class="member__name">{{name}}</h1>
+          <div class="text-wrapper__additional">
+            <p class="additional__age"><span class="bold">Age</span>{{calcAge birth_date name}}</p>
+            <p class="additional__food"><span class="bold">Favorite Food</span>
+              {{#each favorite_food}}
+                {{this}}{{#unless @last}}, {{/unless}}
+              {{/each}}
+            </p>
+          </div>
+        </div>
+      </article>
+    {{/each}}
+  </script>
+
+  <section id="person-generated" class="members__wrapper">
+  </section>
+
+  <script src="https://s3.amazonaws.com/builds.handlebarsjs.com/handlebars.min-v4.7.8.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
