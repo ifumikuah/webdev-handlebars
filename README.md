@@ -1,6 +1,8 @@
 # Learn Handlebars.js
 ## Pt. 0: Person List I
 
+[PREVIEW](https://vocal-pithivier-4e1c0f.netlify.app/)
+
 Person List with Handlebars and Sass
 
 ## Recap
