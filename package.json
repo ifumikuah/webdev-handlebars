@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "default" : "echo hi"
+    "dev" : "sass --watch src/static:src/static",
+    "build" : "sass src/static:src/static"
   },
   "keywords": [],
   "author": "",
